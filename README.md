@@ -64,5 +64,8 @@ b= ["rahim", "karim", "hasan"]
 c= list(zip(a,b))
 print(c[0])
 
+a= list(range(0,11))
+b={i: "even" if i%2 == 0 else "odd" for i in a}
+print(b)
 
 
