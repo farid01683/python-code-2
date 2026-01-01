@@ -59,4 +59,10 @@ print(list(zip(a,b)))
 print(dict(zip(a,b)))
 
 
+a= [1,2,3]
+b= ["rahim", "karim", "hasan"]
+c= list(zip(a,b))
+print(c[0])
+
+
 
