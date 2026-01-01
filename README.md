@@ -32,3 +32,11 @@ d= a.union(b)
 print(d)
 
 
+
+a = {"farrid" : 12, "munne": 11, 1:[1,2,3], 2: {1,3,4}}
+for i in a:
+    print(i)
+for i in a.values():
+    print (i)
+
+
