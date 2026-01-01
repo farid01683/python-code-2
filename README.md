@@ -39,4 +39,24 @@ for i in a:
 for i in a.values():
     print (i)
 
+    a = {"farrid" : 12, "munne": 11, 1:[1,2,3], 2: {1,3,4}}
+for i in a:
+    print(i)
+for i in a.values():
+    print (i)
+print(a.keys(), a.values())
+
+print("---------------------")
+
+for c, d in a.items():
+    print(f" name : {c}, values : {d}")
+
+
+    
+a= [1,2,3]
+b= ["rahim", "karim", "hasan"]
+print(list(zip(a,b)))
+print(dict(zip(a,b)))
+
+
 
