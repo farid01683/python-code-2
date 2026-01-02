@@ -89,3 +89,10 @@ def a(x,y):
 
 a(15,10)
 
+
+
+def a(x,y):
+  return x*y
+z = a(5,6)
+print(z)
+
