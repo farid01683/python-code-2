@@ -69,3 +69,10 @@ b={i: "even" if i%2 == 0 else "odd" for i in a}
 print(b)
 
 
+
+
+a = input("what is your name?")
+print ("hello",a)
+b = max([1,2,3,4])
+print(f"max value {b} . {b*2}")
+
