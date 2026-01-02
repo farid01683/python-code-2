@@ -76,3 +76,16 @@ print ("hello",a)
 b = max([1,2,3,4])
 print(f"max value {b} . {b*2}")
 
+
+def a():
+    x = 10
+    y= 15
+    print (x+y)
+a()
+
+
+def a(x,y):
+     print(x-y)
+
+a(15,10)
+
