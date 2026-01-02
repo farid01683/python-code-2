@@ -96,3 +96,9 @@ def a(x,y):
 z = a(5,6)
 print(z)
 
+def farid():
+  return "farid"
+c = farid()
+print(c)
+
+
