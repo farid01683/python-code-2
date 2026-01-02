@@ -101,4 +101,8 @@ def farid():
 c = farid()
 print(c)
 
-
+def a(*args):
+    print(args)
+    return sum(args)
+r = a(3,4,5,6,7)
+print(r)
