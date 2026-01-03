@@ -123,3 +123,16 @@ a(x="farid", y="masud",z=23)
 def a(**data):
     print(data)
 a(x="farid", y="masud",z=23)
+
+
+def a(**kwargs):
+    print(kwargs)
+    print(f"my name is {kwargs["x"]} your name {kwargs["y"]} age{kwargs["z"]} mark{kwargs["m"]} address{kwargs["n"]}")
+a(x="farid", y="masud",z=23, m= 66, n="dhaka")
+
+
+def a(**data):
+    print(data)
+    print(f"my name is {data["x"]} your name {data["y"]} age{data["z"]} mark{data["m"]} address{data["n"]}")
+a(x="farid", y="masud",z=23, m= 66, n="dhaka")
+
