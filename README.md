@@ -118,3 +118,8 @@ a(x="farid", y="masud",z=23)
 def a(**kwargs):
     print(kwargs)
 a(x="farid", y="masud",z=23)
+
+
+def a(**data):
+    print(data)
+a(x="farid", y="masud",z=23)
