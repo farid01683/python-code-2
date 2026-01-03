@@ -106,3 +106,15 @@ def a(*args):
     return sum(args)
 r = a(3,4,5,6,7)
 print(r)
+
+Keyword Arguments
+
+
+def a(x, y, z):
+    print(f"myname is {x}, his name is {y}, age{z}")
+a(x="farid", y="masud",z=23)
+
+
+def a(**kwargs):
+    print(kwargs)
+a(x="farid", y="masud",z=23)
