@@ -136,3 +136,17 @@ def a(**data):
     print(f"my name is {data["x"]} your name {data["y"]} age{data["z"]} mark{data["m"]} address{data["n"]}")
 a(x="farid", y="masud",z=23, m= 66, n="dhaka")
 
+
+
+Default Parameter and Pass Keyword
+
+
+
+def x(a,b):
+    print(a,b)
+x("farid", "khan")
+
+
+def x(a,b="khan"):
+    print(a,b)
+x("farid" )
