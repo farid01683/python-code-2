@@ -150,3 +150,13 @@ x("farid", "khan")
 def x(a,b="khan"):
     print(a,b)
 x("farid" )
+
+
+a = lambda x: x*x
+print(a(4))
+
+
+
+x = [("farid",20), ("masud",30), ("rahat", 50)]
+y = sorted(x, key = lambda m: m[1])
+print(y)
