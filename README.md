@@ -160,3 +160,16 @@ print(a(4))
 x = [("farid",20), ("masud",30), ("rahat", 50)]
 y = sorted(x, key = lambda m: m[1])
 print(y)
+
+
+
+a = [1,2,3,4]
+
+y = list(map(lambda x:x*x,a))
+print(y)
+d = list(map( lambda  x : x%2 == 0,a))
+print (d)
+e = list(filter( lambda  x : x%2 == 0,a))
+print (e)
+m = functools.reduce(lambda x, y : x + y, a)
+print(m)
