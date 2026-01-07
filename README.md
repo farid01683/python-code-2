@@ -173,3 +173,29 @@ e = list(filter( lambda  x : x%2 == 0,a))
 print (e)
 m = functools.reduce(lambda x, y : x + y, a)
 print(m)
+
+
+
+
+
+##########Scope Resolution
+x = 10
+
+def a():
+    x= 200
+    def b():
+        nonlocal x
+        x= 300
+
+        print(x)
+    b()
+a()
+
+#######Reading from File
+
+
+file = open('name.txt', 'r')
+x =file.read()
+print(x)
+file.close()
+
