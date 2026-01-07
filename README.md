@@ -197,5 +197,24 @@ a()
 file = open('name.txt', 'r')
 x =file.read()
 print(x)
-file.close()
+
+
+*file.close()
+
+
+with open('name.txt', 'r') as f:
+    x = f.read()
+    print(x)
+    
+*write
+with open('name.txt', 'w') as f:
+
+    f.write("my name is rahat\n")
+    f.write("my name is masud\n")
+
+
+a =['i love python\n','i am new in python\n']
+
+with open('name.txt','a') as d:
+    d.writelines(a)    
 
