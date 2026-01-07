@@ -218,3 +218,11 @@ a =['i love python\n','i am new in python\n']
 with open('name.txt','a') as d:
     d.writelines(a)    
 
+    
+
+import os
+if os.path.exists('name.txt'):
+    print('file found')
+else:
+    print('file not found')
+
