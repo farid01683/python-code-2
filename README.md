@@ -219,7 +219,7 @@ with open('name.txt','a') as d:
     d.writelines(a)    
 
     
-
+#####File Handling
 import os
 if os.path.exists('name.txt'):
     print('file found')
@@ -235,6 +235,20 @@ a = pathlib.Path('name.txt')
 
 if a.exists():
     print('hello')
+
+print(os.path.abspath('name.txt')) 
+print(os.path.getsize('name.txt'))
+
+with open('name.txt', 'r') as f:
+    print(f.read(5))
+
+ with open('name.txt', 'r') as f:
+    print(f.tell())   
+
+    
+   
+
+
 
 
     
