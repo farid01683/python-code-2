@@ -226,3 +226,18 @@ if os.path.exists('name.txt'):
 else:
     print('file not found')
 
+
+    ###############
+
+    import  pathlib
+
+a = pathlib.Path('name.txt')
+
+if a.exists():
+    print('hello')
+
+
+    
+
+    
+
