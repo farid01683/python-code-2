@@ -288,3 +288,49 @@ except ValueError:
 except IndexError:
     print('error in')
 
+
+
+try:
+    with open('name.txt', 'r') as f:
+        print(f.read())
+    print(10/2)
+    x = int(8)
+    print(x)
+    j = [1,2,4]
+    print(j[1])
+    x= abaa
+except ZeroDivisionError:
+    print('error')
+except FileNotFoundError:
+    print("file not found")
+
+except ValueError:
+    print ('error')
+except IndexError:
+    print('error in')
+except Exception as e:
+    print('error', e)
+
+    else:
+    print('successful')
+
+    finally:
+    print('print hobei')
+
+
+Else, Finally and Raise
+
+
+
+    def a(x):
+    if not x.endswith('.txt'):
+        raise ValueError ("only .txt file is allowed")
+    print('valid file')
+
+a('csv.txt')
+
+try:                            [Custom Exception Handling]
+    a('csv.txt')
+except Exception as e :
+    print(e)
+
