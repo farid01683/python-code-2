@@ -334,3 +334,19 @@ try:                            [Custom Exception Handling]
 except Exception as e :
     print(e)
 
+
+
+################Class and Object
+
+
+class car:
+    def __init__(farid):
+         farid.brand = ""
+         farid.model = ""
+
+car1 =car()
+car1.brand = "toyota"
+car1.model = "korola"
+
+print(car1.brand)
+print(car1.model)
