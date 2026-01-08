@@ -248,10 +248,43 @@ with open('name.txt', 'r') as f:
     
    
 
+##############error handel
 
-
-
+try:
+    with open('nae.txt', 'r') as f:
+        print(f.read())
+except FileNotFoundError:
+    print("file not found")
     
 
-    
+    try:
+    with open('name.txt', 'r') as f:
+        print(f.read())
+    print(10/2)
+    x = int('abc')
+except ZeroDivisionError:
+    print('error')
+except FileNotFoundError:
+    print("file not found")
+
+except ValueError:
+    print ('error')
+
+    try:
+    with open('name.txt', 'r') as f:
+        print(f.read())
+    print(10/2)
+    x = int(8)
+    print(x)
+    j = [1,2,4]
+    print(j[100])
+except ZeroDivisionError:
+    print('error')
+except FileNotFoundError:
+    print("file not found")
+
+except ValueError:
+    print ('error')
+except IndexError:
+    print('error in')
 
