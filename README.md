@@ -350,3 +350,37 @@ car1.model = "korola"
 
 print(car1.brand)
 print(car1.model)
+print(car1.brand,car1.model)
+
+car2 = car()
+car2.brand = "honda"
+car2.model = "hino"
+
+print(car2.brand)
+print(car2.model)
+print(car2.brand,car2.model)
+
+
+
+class car:
+    def __init__(farid, brand, model):
+        farid.brand = brand
+        farid.model = model
+
+
+car1 = car('toyota', 'honda')
+print(car1.brand)
+print(car1.model)
+
+class car:
+    def __init__(farid, brand = "honda", model ="noha"):
+        farid.brand = brand
+        farid.model = model
+
+
+car1 = car()
+print(car1.brand)
+print(car1.model)
+
+
+
