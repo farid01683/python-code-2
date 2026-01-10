@@ -384,3 +384,17 @@ print(car1.model)
 
 
 
+class car:
+    def __init__(farid, brand, model):
+        farid.brand = brand
+        farid.model = model
+
+    def display_info(farid):
+        print(f"car brand: {farid.brand}\n car model : {farid.model}")
+
+car1 = car('toyota', 'honda')
+print(car1.brand)
+print(car1.model)
+car1.display_info()
+
+
