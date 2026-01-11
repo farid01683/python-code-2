@@ -414,3 +414,77 @@ sc1 = school('rahim')
 print(sc1.school_name)
 print(sc1.student_name)
 
+
+
+class x:
+    a = "dhaka"
+
+    def  __init__ (b, titel):
+         b.y = titel
+
+
+m = x('rahim')
+n = x('karim')
+
+print(m.a)
+print(m.y)
+print(n.a,n.y)
+
+
+
+class p:
+    x = "dhaka"
+
+    def  __init__ (b, titel):
+         b.y = titel
+
+
+m = p('rahim')
+n = p('karim')
+m.x ="barhatta"
+
+print(m.x)
+print(m.y)
+print(n.x,n.y)
+
+
+
+
+class p:
+    x = "dhaka"
+
+    def  __init__ (b, titel):
+         b.y = titel
+
+
+m = p('rahim')
+n = p('karim')
+#m.x ="barhatta"
+
+p.x ="barhatta"
+
+print(m.x)
+print(m.y)
+print(n.x,n.y)
+
+
+##### check again
+class r:
+    p = "dhaka"
+
+    def  __init__ (a, name, salary):
+         a.x = name
+         a.y = salary
+
+
+    def farid (a):
+        print(f"my name is: {a.x}\n my salary is : {a.y}")
+
+    @classmethod
+    def masud (new, name):
+        new.p = name
+
+m = r("rahim", 3000)
+m.farid()
+m.masud('abc company')
+print(m.p)
