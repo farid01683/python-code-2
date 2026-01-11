@@ -398,3 +398,19 @@ print(car1.model)
 car1.display_info()
 
 
+
+Class vs Instance Variable
+
+
+class school:
+    school_name = "ostad school"
+
+    def  __init__ (self, name):
+         self.student_name = name
+
+
+sc1 = school('rahim')
+
+print(sc1.school_name)
+print(sc1.student_name)
+
