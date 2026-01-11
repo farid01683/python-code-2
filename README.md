@@ -488,3 +488,21 @@ m = r("rahim", 3000)
 m.farid()
 m.masud('abc company')
 print(m.p)
+
+
+
+
+
+#####Static Method
+
+
+class school:
+    school  = "ckp pilot"
+
+    @staticmethod
+    def grade(mark):
+        if mark >= 90:
+            return"a"
+        else:
+            return'f'
+print(school.grade(95))
