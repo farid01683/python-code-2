@@ -506,3 +506,34 @@ class school:
         else:
             return'f'
 print(school.grade(95))
+
+
+
+class school:
+    schoolname  = "ckp pilot"
+
+    def __init__(self, name, salary):
+        self.name = name
+        self._salary = salary
+
+    def getsalary (self, password ):
+        if password == "admin":
+            print(ob1._salary)
+        else:
+            print('confidancial')
+
+    def set (self, password, salary ):
+        if password == "admin":
+            self._salary = salary
+            print(f"new salary : {self._salary}")
+        else:
+            print('confidancial')
+ob1 = school("rahim", 30000)
+ob2 = school("korim", 40000)
+
+
+ob1.getsalary("123")
+
+print(ob1._salary)
+print(ob1.name)
+
