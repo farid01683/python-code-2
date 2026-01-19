@@ -558,3 +558,12 @@ def pin():
     return random.randint(1000,9999)
 
 print(f"your 4 digit pin is :{pin()}")
+
+
+
+import collections
+
+
+a =['apple', 'cat', 'dog', 'apple']
+
+print(collections.Counter(a))
