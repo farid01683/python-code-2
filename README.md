@@ -537,3 +537,24 @@ ob1.getsalary("123")
 print(ob1._salary)
 print(ob1.name)
 
+
+#####random
+import random
+print(random.random())
+print(random.uniform(5,10))
+print(random.randint(1,100))
+print(random.randrange(1,100,5))
+
+a = ['farid','masud','rahat']
+print(random.choice(a))
+random.shuffle(a)
+print(a)
+
+
+import random
+
+
+def pin():
+    return random.randint(1000,9999)
+
+print(f"your 4 digit pin is :{pin()}")
