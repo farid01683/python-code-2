@@ -567,3 +567,13 @@ import collections
 a =['apple', 'cat', 'dog', 'apple']
 
 print(collections.Counter(a))
+
+
+
+password =""
+
+while password !="1234":
+  password = input('enter your password:')
+
+print('access granted')
+
